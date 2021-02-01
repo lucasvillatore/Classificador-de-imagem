@@ -6,8 +6,8 @@ import cv2 as cv
 from matplotlib import pyplot as plt
 import numpy as np
 
-files_base_regex = '[0-9]{2}-scale_[0-9]_im_1_col.*'
-files_extra_regex = '[0-9]{2}-scale_[0-9]_im_[2-9]_col.*'
+files_base_regex = '[0-9]{2}-scale_[0-9]_im_1_col.png'
+files_extra_regex = '[0-9]{2}-scale_[0-9]_im_[2-9]_col.png'
 
 def getArguments():
     pass
